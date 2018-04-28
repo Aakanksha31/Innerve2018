@@ -1,0 +1,137 @@
+@media not print{
+    body{
+        color: #635959;
+    }
+
+    header{
+        background-color: #242323;
+        color: #EFEFEF;
+    }
+
+    h3, article h4{
+        color: #8C1018;
+    }
+}
+
+@media not print{
+    main > h3{
+        font-size: 2em;
+    }
+}
+
+@media print{
+    header{
+        padding: 0px;
+    }
+
+    article{
+        box-shadow: none;
+    }
+
+    header h1{
+        font-size: 4em;
+    }
+
+    header h2{
+        display: none;
+    }
+}
+
+body{
+    border-width: 1em;
+    border-color: white;
+    border-style: groove;
+    background-color: lightskyblue;
+}
+
+article{
+    padding: 50px 50px;
+}
+
+article > div{
+    padding: 0.5em;
+    box-shadow: darkblue;
+    box-sizing: 20px;
+    background-color: lightgrey;
+}
+
+div > h2{
+    color:#DC143C; 
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div > h3{
+    color: lightseagreen;
+}
+
+div > h4{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    float: center;
+    padding: 20px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header >h1,h2{
+    color: darkgrey;
+    align: center;
+    font-family: "Beyond Wonderland" !important;
+}
+
+header > h1{
+    text-decoration: underline;
+    font-size: 4em;
+}
+header > h2{
+    margin: 10px;
+}
+div > h3{
+    margin: 25px;
+}
+
+div > h4{
+    margin: 15px;
+}
+
+@font-face{
+    font-family: "Wonderland";
+    src: url('../fonts/Beyond Wonderland.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: "Bleh";
+    src: url('../fonts/bleh.ttf') format('truetype');
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: salmon;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+li a:hover {
+    background-color:palevioletred;
+    text-decoration: underline;
+}
+
+.act {
+    background-color: red;
+}

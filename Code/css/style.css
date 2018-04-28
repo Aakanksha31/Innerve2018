@@ -1,0 +1,139 @@
+@media not print{
+    body{
+        color: #635959;
+    }
+
+    header{
+        background-color: #242323;
+        color: #EFEFEF;
+    }
+
+    h3, article h4{
+        color: #8C1018;
+    }
+    article a{
+        color: #314052;
+    }
+}
+
+@media not print{
+    main > h3{
+        font-size: 2em;
+    }
+}
+
+@media print{
+    header{
+        padding: 0px;
+    }
+
+    article{
+        box-shadow: none;
+    }
+
+    header h1{
+        font-size: 2em;
+    }
+
+    header h2{
+        display: none;
+    }
+}
+
+body section > figcaption{
+    color: blue;
+}
+
+main figure > figcaption{
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+main figure > figcaption ::before{
+    content: 'Picture above:';
+    font-weight: bold;
+}
+
+article > time{
+    float: right;
+    font-size: 0.75em;
+    font-weight: lighter;
+}
+
+
+
+header{
+    padding: 20px 50px;
+}
+
+main{
+    padding: 5px 10px;
+}
+
+
+@font-face{
+    font-family: "Contrail One";
+    src: url('../fonts/mod3_contrail_one.ttf') format('truetype');
+}
+
+body{
+    font-family: "News Cycle" !important;
+    background-color: paleturquoise;
+    border-width: 1em;
+    border-color: white;
+    border-style: groove;
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+.carousel .item > img {
+    display: inline-block;
+}
+
+.carousel-caption{
+    color: navy;
+    height: 1em;
+}
+
+article > div{
+    box-shadow: darkblue;
+    box-sizing: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: salmon;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+li a:hover {
+    background-color:palevioletred;
+}
+
+.act {
+    background-color: red;
+}
